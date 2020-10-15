@@ -5,15 +5,14 @@
 
 int main(int argc, char *argv[]) {
 	
-	int flag =1;
-	int y; //y선언을 중괄호 밖에서 하거나, 중괄호  밖에서 y를 쓰지 않으면 됨 
-	
-	while(flag != 0)
+	int i;
+		
+	for(i=0; i<5; i++) 
 	{
-		y =3;
-		flag =0;
+		int temp =1;
+		printf("temp = %d\n", temp);
+		temp++;
 	}
-	y=4;
 	
 	return 0;
 }
